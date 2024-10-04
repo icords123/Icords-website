@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://scontent.flos1-2.fna.fbcdn.net/v/t1.6435-9/170555322_2573313666294368_123032663748849963_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=2a1932&_nc_eui2=AeGJ4YpMwOXoB5gieYSFePOT7p2cdGaRABvunZx0ZpEAG9PnTlZKBGUxoGYPxSATcBwLR38QMqnuyTstQjM4VnRE&_nc_ohc=jAjfsuApeX8Q7kNvgGOCWDe&_nc_ht=scontent.flos1-2.fna&_nc_gid=AzsiR28MYkJFa6E7jqxxM33&oh=00_AYDLJA-Ku6_zuPrwU4TY5rF7cPTqbL1hR4Q3banjOWPhhA&oe=67272D53');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 64, 128, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: rgba(0, 64, 128, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
